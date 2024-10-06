@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 let corsOptions = {
-    origin : ['http://localhost:5500', 'https://task-silk-three.vercel.app'],
+    origin : ['http://localhost:5173', 'https://task-silk-three.vercel.app'],
  }
  
 app.use(cors(corsOptions))
